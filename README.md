@@ -4,14 +4,14 @@ Um CRUDE simples com get/post/put/delete, utilizando spring boot e a base de dad
 
 /////////// POSTMAN
 
-=GET - localhost8080/users
-
 =POST - RAW - JSON localhost8080/save
 {
     "nome": "alex",
     "idade": 31,
     "ocupacao": "desenvolvedor"
 }
+
+=GET - localhost8080/users
 
 =PUT - RAW - JSON - localhost8080/update/1
 {
